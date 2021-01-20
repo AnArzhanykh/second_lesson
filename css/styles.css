@@ -15,8 +15,18 @@
 
 }
 
-body{
+/* @font-face {
     font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+} */
+
+body{
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
     background-color: #ffffff;
     line-height: 1.1;
@@ -45,7 +55,8 @@ h1, h2, h3, h4,h5, h6 {
 .logo{
     color: var(--second-color);
     text-decoration: none;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 .site-nav .link {
@@ -88,22 +99,22 @@ h1, h2, h3, h4,h5, h6 {
     background-color: var(--primary-color);
 }
 
-/* about us */
+/* features */
 
-.about-us .title {
+.features .title {
     font-size: 14px;
 }
 
-.about-us .text{
+.features .text{
     font-size: 14px;
     line-height: 1.7;
 }
 
 
-/* work */
+/* category */
 
 
-.work .text {
+.category .text {
     color: var(--hero-color);
     background-color: var(--primary-color);
     font-weight: 700;
@@ -113,7 +124,7 @@ h1, h2, h3, h4,h5, h6 {
 
 /* team */
 
-.team .title {
+.container .title {
     font-weight: 500;
     font-size: 16px;
 }
